@@ -66,10 +66,16 @@ gulp.task("servereload", servereload);
 gulp.task("default", gulp.parallel(watchfiles, serve));
 
 gulp.task('build', gulp.series(js, css, images), function() {
-    var buildFonts = gulp.src('app/fonts/**/*')
+  var buildFonts = gulp.src('app/fonts/**/*')
 		.pipe(gulp.dest('dist/fonts'));
 
+  var buildPics = gulp.src('app/pics/**/*')
+		.pipe(gulp.dest('dist/pics'));
+
 	var buildCss = gulp.src('app/css/main.min.css')
+		.pipe(gulp.dest('dist/css'));
+
+  var buildBootstrap = gulp.src('app/bootstrap/bootstrap-grid.min.css')
 		.pipe(gulp.dest('dist/css'));
 
 	var buildJs = gulp.src('app/js/common.min.js')
