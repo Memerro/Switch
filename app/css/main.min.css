@@ -11,7 +11,10 @@ header {
 
 nav {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  height: 50px;
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 nav ul {
   position: fixed;
@@ -26,7 +29,7 @@ nav ul {
   -webkit-transition: 1s;
   transition: 1s; }
 
-nav.black ul {
+nav.black {
   background: #000; }
 
 nav ul li {
@@ -54,17 +57,22 @@ nav ul li a {
   height: 30px;
   position: absolute;
   margin: auto;
-  top: 35px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0; }
+
+.logo img .showing {
+  margin: 0;
+  padding: 0; }
 
 @media (max-height: 576px) {
   nav ul {
     position: fixed;
     max-height: 0;
-    margin: 15px 25px;
-    background: #000; }
+    margin: 0;
+    background: #000;
+    width: 100%; }
   .logo img {
     position: absolute;
     margin: auto;
@@ -72,10 +80,11 @@ nav ul li a {
     left: 0;
     right: 0;
     bottom: 0; }
-  nav.black ul {
+  nav.black {
     background: #000; }
   .showing {
-    max-height: 20em; }
+    max-height: 20em;
+    padding: 0; }
   nav ul li {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
