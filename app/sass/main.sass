@@ -12,13 +12,10 @@ header
 nav 
     position: fixed
     width: 100%
-    display: flex
-
-nav > div 
-    flex: 1
-
+    
 nav ul 
     position: fixed
+    float: left
     margin: 15px 25px
     list-style: none
     background: rgba(0,0,0,0)
@@ -55,8 +52,40 @@ nav ul li a
     height: 30px
     position: absolute
     margin: auto
-    top: 15px
+    top: 35px
     left: 0
     right: 0
     bottom: 0
+
+@media (max-height: 576px)
+    nav ul
+        position: fixed
+        top 0
+        max-height: 0
+        margin: 15px 25px
+        background: #000
+
+    .logo img
+        position: absolute
+        margin: auto
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+
+    nav.black ul 
+        background: #000
+
+    .showing
+        max-height: 20em
+
+    nav ul li
+        box-sizing: border-box
+        width: 100%
+        padding: 25px 0
+        text-align: center
+
+    .menu-icon
+        display: block
+
 
