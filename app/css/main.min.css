@@ -62,11 +62,65 @@ nav ul li a {
   right: 0;
   bottom: 0; }
 
-.logo img .showing {
+.showing {
   margin: 0;
   padding: 0; }
 
-@media (max-height: 576px) {
+.greeting {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 400px; }
+
+.greeting h1 {
+  color: #fff;
+  font-size: 76px;
+  text-align: center;
+  margin: 0; }
+
+.work {
+  width: 250px;
+  height: 50px;
+  background: #54d154;
+  color: #fff;
+  border-radius: 25px;
+  margin: 30px auto;
+  position: relative; }
+
+.work span {
+  display: block;
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.scroll-btn {
+  width: 180px;
+  height: 36px;
+  background: #fff;
+  color: #000;
+  opacity: .8;
+  border-radius: 18px;
+  margin: 0 auto;
+  margin-top: 300px;
+  position: relative; }
+
+.scroll-btn span {
+  display: block;
+  width: 90%;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+@media (max-width: 576px) {
   nav ul {
     position: fixed;
     max-height: 0;
