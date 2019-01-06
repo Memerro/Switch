@@ -74,7 +74,7 @@ nav ul li a
     width: 60%
     height: 250px
     margin: 0 auto
-    padding-top: 400px
+    padding-top: 40vh
 
 .greeting h1 
     color: #fff
@@ -89,7 +89,7 @@ nav ul li a
     color: #fff
     border: 2px solid transparent
     border-radius: 25px
-    margin: 30px auto
+    margin: 3vh auto
     position: relative
     cursor: pointer
     transition: .5s
@@ -120,7 +120,7 @@ nav ul li a
     opacity: .8
     border-radius: 18px
     margin: 0 auto
-    margin-top: 300px
+    margin-top: 30vh
     border: 2px solid transparent
     position: relative
     cursor: pointer
@@ -144,7 +144,92 @@ nav ul li a
     vertical-align: middle
     font-size: 14px
 
-@media (max-width: 576px)
+@media (max-width: 1200px)
+    nav
+        height: 40px
+
+    nav ul li
+        padding: 7px
+        border-top: 4px solid transparent
+
+    nav ul li:hover
+        border-top: 4px solid #54d154
+
+    nav ul li a
+        font-size: 16px
+
+    .logo img
+        width: 85px
+        height: 25px
+        margin-top: 3px
+
+    .greeting h1
+        font-size: 48px
+
+    .work
+        width: 200px
+        height: 40px
+        border-radius: 20px
+
+    .work span
+        font-size: 20px
+
+    .scroll-btn
+        width: 144px
+        height: 30px
+        border-radius: 15px
+
+    .scroll-btn span
+        font-size: 20px
+
+    .scroll-btn span i 
+        font-size: 12px
+
+@media (max-width: 992px)
+    nav
+        height: 30px
+
+    nav ul
+        padding-left: 20px
+
+    nav ul li
+        padding: 5px
+        border-top: 3px solid transparent
+
+    nav ul li:hover
+        border-top: 3px solid #54d154
+
+    nav ul li a
+        font-size: 14px
+
+    .logo img
+        width: 70px
+        height: 20px
+        margin-top: 5px
+
+    .greeting h1
+        font-size: 36px
+
+    .work
+        width: 160px
+        height: 30px
+        border-radius: 15px
+
+    .work span
+        font-size: 16px
+
+    .scroll-btn
+        width: 118px
+        height: 24px
+        border-radius: 12px
+
+    .scroll-btn span
+        font-size: 16px
+
+    .scroll-btn span i
+        font-size: 10px
+       
+@media (max-width: 768px)
     nav ul
         position: fixed
         top 0
@@ -160,6 +245,7 @@ nav ul li a
         left: 0
         right: 0
         bottom: 0
+        margin-top: 20px
 
     nav.black 
         background: #000
