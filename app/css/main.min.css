@@ -158,7 +158,17 @@ nav ul li a {
   opacity: .6; }
 
 .pre-post h2 {
-  font-size: 48px; }
+  font-size: 48px;
+  position: relative; }
+
+.pre-post h2:before {
+  content: '';
+  position: absolute;
+  width: 5%;
+  height: 2px;
+  bottom: -10px;
+  left: 47.5%;
+  border-bottom: 2px solid #333; }
 
 .pre-post p {
   font-size: 24px; }
@@ -243,6 +253,10 @@ nav ul li a {
   .post p {
     font-size: 18px;
     margin: 0 10%; }
+  .pre-post h2 {
+    font-size: 40px; }
+  .pre-post p {
+    font-size: 20px; }
   .post-btn {
     width: 144px;
     height: 24px;
@@ -284,6 +298,10 @@ nav ul li a {
     font-size: 16px; }
   .scroll-btn span i {
     font-size: 10px; }
+  .pre-post h2 {
+    font-size: 32px; }
+  .pre-post p {
+    font-size: 15px; }
   .post p {
     font-size: 15px;
     margin: 0 5%; }
@@ -324,6 +342,12 @@ nav ul li a {
     text-align: center; }
   .menu-icon {
     display: block; }
+  .pre-post h2 {
+    font-size: 40px; }
+  .pre-post p {
+    font-size: 18px; }
+  .posts {
+    margin-top: 0; }
   .post {
     margin-top: 10%; }
   .post-btn span {
