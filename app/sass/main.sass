@@ -145,6 +145,9 @@ nav ul li a
     vertical-align: middle
     font-size: 14px
 
+.posts
+    margin-top: 10%
+
 .posts h2, p
     opacity: .5
     text-align: center
@@ -164,7 +167,13 @@ nav ul li a
     border-radius: 15px
     color: #fff
     background: #54d154
+    border: 2px solid transparent
     position: relative
+    transition: .5s
+
+.post-btn:hover
+    border: 2px solid #0b530b
+    background: #44a944
 
 .icon-bg
     width: 200px
@@ -208,7 +217,7 @@ nav ul li a
         height: 40px
         border-radius: 20px
 
-    .work span
+    .work span, .post-btn span
         font-size: 20px
 
     .scroll-btn
@@ -221,6 +230,20 @@ nav ul li a
 
     .scroll-btn span i 
         font-size: 12px
+
+    .post p
+        font-size: 18px
+        margin: 0 10%
+
+    .post-btn
+        width: 144px
+        height: 24px
+        border-radius: 12px
+
+    .icon-bg
+        width: 160px
+        height: 160px
+        border-radius: 36px
 
 @media (max-width: 992px)
     nav
@@ -252,7 +275,7 @@ nav ul li a
         height: 30px
         border-radius: 15px
 
-    .work span
+    .work span, .post-btn span
         font-size: 16px
 
     .scroll-btn
@@ -265,6 +288,20 @@ nav ul li a
 
     .scroll-btn span i
         font-size: 10px
+
+    .post p
+        font-size: 15px
+        margin: 0 5%
+
+    .post-btn
+        width: 108px
+        height: 20px
+        border-radius: 10px
+
+    .icon-bg
+        width: 120px
+        height: 120px
+        border-radius: 27px
        
 @media (max-width: 768px)
     nav ul
@@ -299,5 +336,25 @@ nav ul li a
 
     .menu-icon
         display: block
+
+    .post
+        margin-top: 10%
+
+    .post-btn span
+        font-size: 25px
+
+    .post p
+        margin: 0 15%
+        font-size: 20px
+
+    .post-btn 
+        width: 180px
+        height: 30px
+        border-radius: 15px
+
+    .icon-bg
+        width: 200px
+        height: 200px
+        border-radius: 45px
 
 
