@@ -262,11 +262,6 @@ nav ul li a {
   background: #2b9b2b;
   color: #fff; }
 
-.gallery-btn:after {
-  content: "";
-  clear: both;
-  display: table; }
-
 .gallery-btn div span {
   font-size: 20px;
   position: absolute;
@@ -341,7 +336,7 @@ nav ul li a {
     width: 200px;
     height: 40px;
     border-radius: 20px; }
-  .work span, .post-btn span {
+  .work span, .post-btn span, .more-btn span {
     font-size: 20px; }
   .scroll-btn {
     width: 144px;
@@ -354,9 +349,9 @@ nav ul li a {
   .post p {
     font-size: 18px;
     margin: 0 10%; }
-  .pre-post h2 {
+  .pre-post h2, .pre-gallery h2 {
     font-size: 40px; }
-  .pre-post p {
+  .pre-post p, .pre-gallery p {
     font-size: 20px; }
   .post-btn {
     width: 144px;
@@ -365,7 +360,34 @@ nav ul li a {
   .icon-bg {
     width: 160px;
     height: 160px;
-    border-radius: 36px; } }
+    border-radius: 36px; }
+  .gallery {
+    height: 1100px; }
+  .gallery-btn {
+    width: 320px;
+    height: 32px; }
+  .gallery-btn div:first-child {
+    border-radius: 16px 0 0 16px; }
+  .gallery-btn div:last-child {
+    border-radius: 0 16px 16px 0; }
+  .gallery-btn div span {
+    font-size: 18px; }
+  .photos {
+    height: 640px;
+    margin: 40px 5%; }
+  .photos div {
+    width: 160px;
+    height: 160px;
+    margin: 20px; }
+  .photos img {
+    width: 160px;
+    height: 160px; }
+  .more-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px; }
+  .more-btn span i {
+    font-size: 9px; } }
 
 @media (max-width: 992px) {
   nav {
@@ -389,7 +411,7 @@ nav ul li a {
     width: 160px;
     height: 30px;
     border-radius: 15px; }
-  .work span, .post-btn span {
+  .work span, .post-btn span, .more-btn span {
     font-size: 16px; }
   .scroll-btn {
     width: 118px;
@@ -399,9 +421,9 @@ nav ul li a {
     font-size: 16px; }
   .scroll-btn span i {
     font-size: 10px; }
-  .pre-post h2 {
+  .pre-post h2, .pre-gallery h2 {
     font-size: 32px; }
-  .pre-post p {
+  .pre-post p, .pre-gallery p {
     font-size: 15px; }
   .post p {
     font-size: 15px;
@@ -413,7 +435,35 @@ nav ul li a {
   .icon-bg {
     width: 120px;
     height: 120px;
-    border-radius: 27px; } }
+    border-radius: 27px; }
+  .gallery {
+    height: 820px; }
+  .pre-gallery {
+    height: 150px; }
+  .gallery-btn {
+    width: 240px;
+    height: 24px; }
+  .gallery-btn div:first-child {
+    border-radius: 12px 0 0 12px; }
+  .gallery-btn div:last-child {
+    border-radius: 0 12px 12px 0; }
+  .gallery-btn div span {
+    font-size: 15px; }
+  .photos {
+    height: 480px;
+    margin: 30px 5%; }
+  .photos div {
+    width: 120px;
+    height: 120px;
+    margin: 15px; }
+  .photos img {
+    width: 120px;
+    height: 120px; }
+  .more-btn {
+    width: 150px;
+    height: 30px; }
+  .more-btn span i {
+    font-size: 7px; } }
 
 @media (max-width: 768px) {
   nav ul {
@@ -463,4 +513,14 @@ nav ul li a {
   .icon-bg {
     width: 200px;
     height: 200px;
-    border-radius: 45px; } }
+    border-radius: 45px; }
+  .gallery {
+    height: 950px; }
+  .photos {
+    height: 600px; } }
+
+@media (max-width: 576px) {
+  .gallery {
+    height: 1100px; }
+  .photos {
+    height: 750px; } }
