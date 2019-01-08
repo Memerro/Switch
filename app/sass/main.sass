@@ -145,15 +145,15 @@ nav ul li a
     vertical-align: middle
     font-size: 14px
 
-.pre-post
+.pre-post, .pre-gallery
     text-align: center
     opacity: .6
 
-.pre-post h2
+.pre-post h2, .pre-gallery h2
     font-size: 48px
     position: relative
 
-.pre-post h2:before
+.pre-post h2:before, .pre-gallery h2:before
     content: '';
     position: absolute
     width: 5%
@@ -162,7 +162,7 @@ nav ul li a
     left: 47.5%
     border-bottom: 3px solid #333
 
-.pre-post p
+.pre-post p, .pre-gallery p
     font-size: 24px
 
 .posts
@@ -209,6 +209,69 @@ nav ul li a
     top: 50%
     left: 50%
     transform: translateX(-50%) translateY(-50%)
+
+.gallery
+    height: 100vh
+    width: 100%
+    background: #54d154
+    margin-top: 100px
+    position: relative
+
+.pre-gallery
+    width: 100%
+    height: 200px
+
+.gallery-btn
+    width: 400px
+    height: 40px
+    border-radius: 15px
+    margin: 0 auto
+    margin-top: -200px
+
+.gallery-btn div
+    display: inline-block
+    margin: 0
+    padding: 0
+    background: #fff
+    color: #2b9b2b
+    cursor: pointer
+    border: 1px solid #2b9b2b
+    height: 100%
+    float: left
+    text-align: center
+    position: relative
+    transition: .5s
+
+.gallery-btn div:first-child
+    border-radius: 20px 0 0 20px
+
+.gallery-btn div:last-child
+    border-radius: 0 20px 20px 0
+
+.gallery-btn div:hover
+    background: #2b9b2b
+    color: #fff
+
+.gallery-btn:after
+    content: ""
+    clear: both
+    display: table
+
+.gallery-btn div span
+    font-size: 20px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+
+.photo
+    width: 40%
+
+.design
+    width: 30%
+
+.print
+    width: 30%
 
 @media (max-width: 1200px)
     nav
