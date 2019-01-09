@@ -316,12 +316,12 @@ nav ul li a {
   background: #207420;
   border: 2px solid #fff; }
 
-.slider {
+.mySlider {
   width: 60%;
   height: 250px;
   margin: 150px auto; }
 
-.slider p {
+.mySlider p {
   font-size: 20px;
   margin: 0 15%;
   text-align: center; }

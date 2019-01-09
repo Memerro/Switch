@@ -14,7 +14,7 @@ $(window).on("scroll", function() {
 });
 
 $(document).ready(function() {
-    $('.slider').slick({
+    $('.mySlider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
@@ -22,6 +22,6 @@ $(document).ready(function() {
         infinite: true,
         speed: 700,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
     });
 });
