@@ -25,3 +25,8 @@ $(document).ready(function() {
         autoplaySpeed: 3000,
     });
 });
+
+$('.scroll-btn').click(function(){
+    $("html, body").animate({ scrollTop: $(window).height()}, 800);
+    return false;
+});
