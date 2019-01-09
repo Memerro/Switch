@@ -153,15 +153,15 @@ nav ul li a {
   vertical-align: middle;
   font-size: 14px; }
 
-.pre-post, .pre-gallery {
+.pre-post, .pre-gallery, .pre-test {
   text-align: center;
   opacity: .6; }
 
-.pre-post h2, .pre-gallery h2 {
+.pre-post h2, .pre-gallery h2, .pre-test h2 {
   font-size: 48px;
   position: relative; }
 
-.pre-post h2:before, .pre-gallery h2:before {
+.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before {
   content: '';
   position: absolute;
   width: 5%;
@@ -170,7 +170,7 @@ nav ul li a {
   left: 47.5%;
   border-bottom: 3px solid #333; }
 
-.pre-post p, .pre-gallery p {
+.pre-post p, .pre-gallery p, .pre-test p {
   font-size: 24px; }
 
 .posts {
@@ -315,6 +315,42 @@ nav ul li a {
 .more-btn:hover {
   background: #207420;
   border: 2px solid #fff; }
+
+.slider {
+  width: 60%;
+  height: 250px;
+  margin: 150px auto; }
+
+.slider p {
+  font-size: 20px;
+  margin: 0 15%;
+  text-align: center; }
+
+.author {
+  width: 20%;
+  height: 50px;
+  margin: 30px auto; }
+
+.border {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  clear: left; }
+
+.author img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.author span {
+  font-size: 20px;
+  margin-left: 10px;
+  display: inline-block; }
 
 @media (max-width: 1200px) {
   nav {

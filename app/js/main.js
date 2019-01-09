@@ -12,3 +12,16 @@ $(window).on("scroll", function() {
         $("nav").removeClass("black");
     }
 });
+
+$(document).ready(function() {
+    $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 700,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+});
