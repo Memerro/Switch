@@ -341,7 +341,7 @@ nav ul li a
 
 .clients
     width: 100%
-    height: 800px
+    height: 700px
     background: #f2f1f1
 
 .client-logos div
@@ -372,6 +372,7 @@ nav ul li a
     background: #54d154
     color: #fff
     border: 2px solid #0b530b
+    opacity: .8
 
 .clients-btn span
     display: block
@@ -438,10 +439,10 @@ nav ul li a
         font-size: 18px
         margin: 0 10%
 
-    .pre-post h2, .pre-gallery h2, .pre-test h2
+    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
         font-size: 40px
         
-    .pre-post p, .pre-gallery , .pre-test p
+    .pre-post p, .pre-gallery , .pre-test p, .pre-clients p
         font-size: 20px
 
     .post-btn
@@ -516,6 +517,15 @@ nav ul li a
         font-size: 17px
         margin-left: 8px
 
+    .clients-btn
+        width: 200px
+        height: 40px
+        border-radius: 20px
+        margin: 50px auto
+
+    .clients-btn span
+        font-size: 20px
+
 @media (max-width: 992px)
     nav
         height: 30px
@@ -560,10 +570,10 @@ nav ul li a
     .scroll-btn span i
         font-size: 10px
 
-    .pre-post h2, .pre-gallery h2, .pre-test h2
+    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
         font-size: 32px
 
-    .pre-post p, .pre-gallery p, .pre-test p
+    .pre-post p, .pre-gallery p, .pre-test p, .pre-clients p
         font-size: 15px
 
     .post p
@@ -642,6 +652,30 @@ nav ul li a
     .author span
         font-size: 15px
         margin-left: 5px
+
+    .clients
+        height: 500px
+
+    .clients, .pre-clients
+        margin-top: 0
+
+    .client-logos div
+        height: 100px
+
+    .client-logos div img
+        height: auto
+        width: auto
+        max-height: 60%
+        max-width: 60%
+
+    .clients-btn
+        width: 150px
+        height: 30px
+        border-radius: 15px
+        margin: 40px auto
+
+    .clients-btn span
+        font-size: 16px
        
 @media (max-width: 768px)
     nav ul
@@ -682,6 +716,9 @@ nav ul li a
 
     .pre-post p
         font-size: 18px
+
+    .pre-post p, .pre-gallery p, .pre-clients p
+        margin: 0 5%
 
     .posts
         margin-top: 0
@@ -740,7 +777,19 @@ nav ul li a
     .author span
         font-size: 14px
 
+    .clients
+        height: 700px
+
+    .pre-clients
+        height: 150px
+
 @media (max-width: 576px)
+    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
+        font-size: 28px
+
+    .pre-gallery
+        margin-top: 0
+
     .gallery
         height: 1100px
 
