@@ -153,15 +153,15 @@ nav ul li a {
   vertical-align: middle;
   font-size: 14px; }
 
-.pre-post, .pre-gallery, .pre-test {
+.pre-post, .pre-gallery, .pre-test, .pre-clients {
   text-align: center;
   opacity: .6; }
 
-.pre-post h2, .pre-gallery h2, .pre-test h2 {
+.pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2 {
   font-size: 48px;
   position: relative; }
 
-.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before {
+.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before, .pre-clients h2:before {
   content: '';
   position: absolute;
   width: 5%;
@@ -170,7 +170,7 @@ nav ul li a {
   left: 47.5%;
   border-bottom: 3px solid #333; }
 
-.pre-post p, .pre-gallery p, .pre-test p {
+.pre-post p, .pre-gallery p, .pre-test p, .pre-clients p {
   font-size: 24px; }
 
 .posts {
@@ -226,7 +226,7 @@ nav ul li a {
   background: #54d154;
   margin-top: 100px; }
 
-.pre-gallery {
+.pre-gallery, .pre-clients {
   width: 100%;
   height: 200px;
   display: inline-block;
@@ -318,8 +318,9 @@ nav ul li a {
 
 .mySlider {
   width: 60%;
-  height: 250px;
-  margin: 150px auto; }
+  height: 200px;
+  margin: 150px auto;
+  margin-bottom: 0; }
 
 .mySlider p {
   font-size: 20px;
@@ -351,6 +352,56 @@ nav ul li a {
   font-size: 20px;
   margin-left: 10px;
   display: inline-block; }
+
+.clients {
+  width: 100%;
+  height: 800px;
+  background: #f2f1f1; }
+
+.client-logos div {
+  width: 25%;
+  height: 150px;
+  position: relative; }
+
+.client-logos div img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.clients-btn {
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 70px auto;
+  background: #dddcdc;
+  color: #a59d9d;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+  -webkit-transition: .7s;
+  transition: .7s; }
+
+.clients-btn:hover {
+  background: #54d154;
+  color: #fff;
+  border: 2px solid #0b530b; }
+
+.clients-btn span {
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.clients-btn span i {
+  vertical-align: middle;
+  font-size: 12px; }
 
 @media (max-width: 1550px) {
   .author {
