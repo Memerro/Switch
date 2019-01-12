@@ -498,15 +498,17 @@ nav ul li a
     height: 50px
     background: #54d154
     color: #fff
-    border: 2px solid transparent
     border-radius: 25px
-    -webkit-box-shadow: 0px 5px 15px 0px #38a838;
-    -moz-box-shadow: 0px 5px 15px 0px #38a838;
-    box-shadow: 0px 5px 15px 0px #38a838;
+    -webkit-box-shadow: 0px 5px 15px 0px #38a838
+    -moz-box-shadow: 0px 5px 15px 0px #38a838
+    box-shadow: 0px 5px 15px 0px #38a838
     margin: 75px auto
     position: relative
     cursor: pointer
-    transition: .5s
+    transition: .7s
+
+.team-btn:hover
+    background: #207420
 
 @media (max-width: 1550px)
     .author
@@ -514,6 +516,10 @@ nav ul li a
 
     .author span
         font-size: 18px
+
+    .member-photo
+        width: 160px
+        height: 160px
 
 @media (max-width: 1200px)
     nav
@@ -542,7 +548,7 @@ nav ul li a
         height: 40px
         border-radius: 20px
 
-    .work span, .post-btn span, .more-btn span
+    .work span, .post-btn span, .more-btn span, .team-btn span
         font-size: 20px
 
     .scroll-btn
@@ -560,10 +566,10 @@ nav ul li a
         font-size: 18px
         margin: 0 10%
 
-    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
+    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2
         font-size: 40px
         
-    .pre-post p, .pre-gallery , .pre-test p, .pre-clients p
+    .pre-post p, .pre-gallery , .pre-test p, .pre-clients p, .pre-team p
         font-size: 20px
 
     .post-btn
@@ -647,6 +653,43 @@ nav ul li a
     .clients-btn span
         font-size: 20px
 
+    .team
+        height: 900px
+
+    .post-team
+        height: 160px
+
+    .team-btn
+        width: 200px
+        height: 40px
+        border-radius: 20px
+        margin: 60px auto
+
+    .member-photo
+        width: 135px
+        height: 135px
+
+    .member-info span
+        font-size: 18px
+
+    .social-links
+        width: 100px
+        height: 30px
+
+    .icon-links
+        width: 24px
+        height: 24px
+        margin: 3px 2px
+
+    .social-links a
+        width: 24px
+        height: 24px
+
+    .social-links img
+        width: 24px
+        height: 24px
+
+
 @media (max-width: 992px)
     nav
         height: 30px
@@ -677,7 +720,7 @@ nav ul li a
         height: 30px
         border-radius: 15px
 
-    .work span, .post-btn span, .more-btn span
+    .work span, .post-btn span, .more-btn span, .team-btn span
         font-size: 16px
 
     .scroll-btn
@@ -691,10 +734,10 @@ nav ul li a
     .scroll-btn span i
         font-size: 10px
 
-    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
+    .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2
         font-size: 32px
 
-    .pre-post p, .pre-gallery p, .pre-test p, .pre-clients p
+    .pre-post p, .pre-gallery p, .pre-test p, .pre-clients p, .pre-team p
         font-size: 15px
 
     .post p
@@ -797,6 +840,56 @@ nav ul li a
 
     .clients-btn span
         font-size: 16px
+
+    .team
+        height: 600px
+
+    .pre-team
+        margin-top: 0
+        height: 150px
+
+    .team-members
+        height: 350px
+        margin-top: 0
+
+    .post-team
+        height: 120px
+
+    .team-btn
+        width: 150px
+        height: 30px
+        border-radius: 15px
+        margin: 45px auto
+
+    .member-photo
+        width: 100px
+        height: 100px
+
+    .member-photo:after
+        bottom: -140px
+        height: 120px
+
+    .member-info
+        margin-top: 140px
+
+    .member span
+        line-height: 30px
+
+    .member-info span
+        font-size: 15px
+
+    .social-links
+        width: 90px
+        height: 26px
+
+    .icon-links
+        width: 20px
+        height: 20px
+        margin: 3px 2px
+
+    .social-links a, .social-links img
+        width: 20px
+        height: 20px
        
 @media (max-width: 768px)
     nav ul
@@ -838,7 +931,7 @@ nav ul li a
     .pre-post p
         font-size: 18px
 
-    .pre-post p, .pre-gallery p, .pre-clients p
+    .pre-post p, .pre-gallery p, .pre-clients p, .pre-team p
         margin: 0 5%
 
     .posts
@@ -904,6 +997,48 @@ nav ul li a
     .pre-clients
         height: 150px
 
+    .team
+        height: 900px
+
+    .pre-team
+        height: 130px
+
+    .team-members
+        width: 80%
+        height: 650px
+        margin: 0 10%
+
+    .member
+        width: 100%
+        height: 100px
+        display: block
+        margin: 30px 0
+
+    .member-photo:after
+        top: 50%
+        left: 110px
+        width: 30vw
+        border-top: 3px solid #207b20
+        height: 0
+        bottom: 0
+        border-left: 0
+
+    .member-info
+        width: 20vw
+        height: 60px
+        margin: 20px 0
+        float: right
+
+    .member-photo
+        margin: 0
+        float: left
+        
+    .post-team
+        height: 100px
+
+    .team-btn
+        margin: 35px auto
+
 @media (max-width: 576px)
     .pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2
         font-size: 28px
@@ -933,4 +1068,7 @@ nav ul li a
     .author span
         font-size: 12px
         margin-left: 3px
+
+    .member span
+        font-size: 12px
 
