@@ -158,11 +158,11 @@ nav ul li a {
   text-align: center;
   opacity: .6; }
 
-.pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2, .about h2, .recent h2, .contact h2 {
+.pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2, .about h2, .recent h2, .contact h2, .seen-on h2 {
   font-size: 48px;
   position: relative; }
 
-.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before, .pre-clients h2:before, .pre-team h2:before, .about h2:before, .recent h2:before, .contact h2:before {
+.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before, .pre-clients h2:before, .pre-team h2:before, .about h2:before, .recent h2:before, .contact h2:before, .seen-on h2:before {
   content: '';
   position: absolute;
   width: 5%;
@@ -676,6 +676,72 @@ input[type=text]:focus, .contact textarea:focus {
   opacity: 1;
   font-size: 16px; }
 
+.footer {
+  width: 100%;
+  height: 330px;
+  background: #222;
+  padding: 1px; }
+
+.seen-on {
+  width: 100%;
+  height: 250px;
+  background: #222; }
+
+.krisna {
+  width: 100%;
+  height: 50px;
+  background: #111;
+  padding: 1px;
+  margin: 0;
+  border: 0; }
+
+.cnn {
+  background: url("../pics/footer/cnn.png") 50% 50% no-repeat; }
+
+.tc {
+  background: url("../pics/footer/tc.png") 50% 50% no-repeat; }
+
+.bbc {
+  background: url("../pics/footer/bbc.png") 50% 50% no-repeat; }
+
+.nytimes {
+  background: url("../pics/footer/nytimes.png") 50% 50% no-repeat; }
+
+.as-seen {
+  height: 100px;
+  width: 90%;
+  margin: 0 5%; }
+
+.cnn, .tc, .bbc, .nytimes {
+  height: 100px;
+  margin: 0 4.5%;
+  display: inline-block; }
+
+.as-seen h2 {
+  font-size: 36px;
+  color: #111;
+  text-align: center; }
+
+.seen-on h2:before {
+  width: 10%;
+  left: 45%;
+  border: 2px solid #111; }
+
+.cnn, .tc {
+  width: 10%; }
+
+.bbc {
+  width: 15%; }
+
+.nytimes {
+  width: 27%; }
+
+.krisna img {
+  display: block;
+  width: 175px;
+  height: 16px;
+  margin: 17px auto; }
+
 @media (max-width: 1550px) {
   .author {
     width: 30%; }
@@ -840,7 +906,15 @@ input[type=text]:focus, .contact textarea:focus {
     height: 35px; }
   .contact input, .contact textarea {
     width: 80%;
-    margin: 2px 10%; } }
+    margin: 2px 10%; }
+  .cnn, .tc, .bbc, .nytimes {
+    margin: 0 1.5%; }
+  .cnn, .tc {
+    width: 16%; }
+  .bbc {
+    width: 21%; }
+  .nytimes {
+    width: 33%; } }
 
 @media (max-width: 992px) {
   nav {
@@ -1015,7 +1089,17 @@ input[type=text]:focus, .contact textarea:focus {
     height: 30px; }
   .contact input, .contact textarea {
     width: 90%;
-    margin: 2px 5%; } }
+    margin: 2px 5%; }
+  .footer {
+    height: 600px; }
+  .seen-on {
+    height: 520px; }
+  .as-seen {
+    height: 60px; }
+  .cnn, .tc, .bbc, .nytimes {
+    display: block;
+    width: 90%;
+    margin: 10px auto; } }
 
 @media (max-width: 768px) {
   nav ul {
