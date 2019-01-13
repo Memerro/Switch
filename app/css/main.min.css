@@ -158,11 +158,11 @@ nav ul li a {
   text-align: center;
   opacity: .6; }
 
-.pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2 {
+.pre-post h2, .pre-gallery h2, .pre-test h2, .pre-clients h2, .pre-team h2, .about h2, .recent h2, .contact h2 {
   font-size: 48px;
   position: relative; }
 
-.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before, .pre-clients h2:before, .pre-team h2:before {
+.pre-post h2:before, .pre-gallery h2:before, .pre-test h2:before, .pre-clients h2:before, .pre-team h2:before, .about h2:before, .recent h2:before, .contact h2:before {
   content: '';
   position: absolute;
   width: 5%;
@@ -175,6 +175,7 @@ nav ul li a {
   font-size: 24px; }
 
 .posts {
+  margin: 0;
   margin-top: 5%; }
 
 .posts h2, .posts p {
@@ -526,6 +527,154 @@ nav ul li a {
 
 .team-btn:hover {
   background: #207420; }
+
+.pre-footer {
+  width: 100%;
+  height: 650px;
+  background: #333;
+  color: #fff;
+  margin: 0; }
+
+.about, .recent, .contact {
+  text-align: center;
+  margin: 0; }
+
+.pre-footer h2, .pre-footer p, .article a span {
+  opacity: .8; }
+
+.pre-footer h2, .recent h2, .contact h2 {
+  font-size: 36px; }
+
+.pre-footer p {
+  font-size: 21px; }
+
+.pre-footer h2:before, .recent h2:before, .contact h2:before {
+  width: 10%;
+  left: 45%;
+  border: 2px solid #fff; }
+
+.about p {
+  margin: 0 5%; }
+
+.soc-about {
+  background: #fff;
+  margin-top: 80px; }
+
+.article {
+  width: 70%;
+  height: 80px;
+  margin: 25px 15%; }
+
+.article-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 11px;
+  float: left;
+  clear: left; }
+
+.article a {
+  text-decoration: none;
+  color: #fff; }
+
+.article span {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  font-size: 22px; }
+
+.recent-btn {
+  padding: 3px;
+  border-radius: 7px; }
+
+.recent-btn span {
+  font-size: 21px; }
+
+.article-photo1 {
+  background: url("../pics/gallery/photo6.jpg") 50% 50% no-repeat; }
+
+.recent-btn1 {
+  background: #54d154; }
+
+.article-photo2 {
+  background: url("../pics/gallery/photo7.jpg") 50% 50% no-repeat; }
+
+.recent-btn2 {
+  background: #ffba00; }
+
+.article-photo3 {
+  background: url("../pics/gallery/photo8.jpg") 50% 50% no-repeat; }
+
+.recent-btn3 {
+  background: #089dea; }
+
+.article-photo4 {
+  background: url("../pics/gallery/photo9.jpg") 50% 50% no-repeat; }
+
+.recent-btn4 {
+  background: #f34d04; }
+
+.article-photo5 {
+  background: url("../pics/gallery/photo10.jpg") 50% 50% no-repeat; }
+
+.contact p {
+  margin: 5px; }
+
+.contact form {
+  margin: 40px 0; }
+
+.contact input {
+  height: 40px; }
+
+.contact input, .contact textarea {
+  display: block;
+  width: 70%;
+  margin: 2px 15%;
+  border: 0; }
+
+.contact input:first-child {
+  border-radius: 7px 7px 0 0; }
+
+.contact input:last-child {
+  border-radius: 0 0 7px 7px;
+  background: #2b9b2b;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.contact input:last-child:hover {
+  background: #54d154; }
+
+input[type=text], .contact textarea {
+  background: #444;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 0 10px; }
+
+input[type=text]:focus, .contact textarea:focus {
+  outline: none;
+  background: #555;
+  color: #fff; }
+
+.contact input::-webkit-input-placeholder {
+  color: #777;
+  opacity: 1;
+  font-size: 16px; }
+
+.contact input:-ms-input-placeholder {
+  color: #777;
+  opacity: 1;
+  font-size: 16px; }
+
+.contact input::-ms-input-placeholder {
+  color: #777;
+  opacity: 1;
+  font-size: 16px; }
+
+.contact input::placeholder {
+  color: #777;
+  opacity: 1;
+  font-size: 16px; }
 
 @media (max-width: 1550px) {
   .author {
