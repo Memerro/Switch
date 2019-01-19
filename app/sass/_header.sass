@@ -1,0 +1,152 @@
+html, body
+    margin: 0
+    padding: 0
+    border: 0
+    width: 100%
+
+header 
+    width: 100%
+    height: 100vh
+    background: url("../pics/header/headerbg.jpg") no-repeat 50% 50%
+    background-size: cover
+
+nav 
+    position: fixed
+    width: 100%
+    height: 50px
+    transition: 1s
+    z-index: 5
+    
+nav ul 
+    position: fixed
+    float: left
+    margin: 15px 25px
+    list-style: none
+    background: rgba(0,0,0,0)
+    overflow: hidden
+    color: #fff
+    text-align: center
+    margin: 0
+    transition: 1s   
+
+nav.black 
+    background: #000;
+
+nav ul li 
+    display: inline-block
+    padding: 10px
+    opacity: .7
+    transition: .5s
+    border-top: 5px solid transparent
+    font-family: 'Nunito Sans', sans-serif
+
+nav ul li:hover
+    opacity: 1
+    border-top: 5px solid #54d154
+
+nav ul li a
+    text-decoration: none
+    color: #fff
+    font-size: 19px
+    font-family: 'Nunito Sans' sans-serif
+
+.menu-icon 
+    width: 100%
+    background: #000;
+    text-align: right
+    box-sizing: border-box
+    padding: 15px 25px
+    cursor: pointer
+    color: #fff
+    display: none
+
+.logo img
+    width: 100px
+    height: 30px
+    position: absolute
+    margin: auto
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+.showing
+    margin: 0
+    padding: 0
+
+.greeting
+    width: 60%
+    height: 250px
+    margin: 0 auto
+    padding-top: 40vh
+
+.greeting h1 
+    color: #fff
+    font-size: 76px
+    text-align: center
+    margin: 0
+    font-family: 'Merriweather Sans', sans-serif
+
+.work
+    width: 250px
+    height: 50px
+    background: #54d154
+    color: #fff
+    border: 2px solid transparent
+    border-radius: 25px
+    margin: 3vh auto
+    position: relative
+    cursor: pointer
+    transition: .5s
+
+.work:hover
+    opacity: .7
+    border: 2px solid #0b530b
+
+.work a, .posts a, .team-btn a
+    text-decoration: none
+    color: #fff
+
+.work span, .post-btn span, .more-btn span, .team-btn span
+    display: block
+    width: 90%
+    text-align: center
+    font-family: 'Nunito Sans', sans-serif
+    font-size: 25px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+
+.scroll-btn
+    width: 180px
+    height: 36px
+    background: #fff
+    color: #000
+    opacity: .8
+    border-radius: 18px
+    margin: 0 auto
+    margin-top: 30vh
+    border: 2px solid transparent
+    position: relative
+    cursor: pointer
+    transition: .7s
+
+.scroll-btn:hover
+    opacity: 1
+    border: 2px solid #0b530b
+
+.scroll-btn span
+    display: block
+    width: 90%
+    text-align: center
+    font-family: 'Nunito Sans', sans-serif
+    font-size: 24px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+
+.scroll-btn span i
+    vertical-align: middle
+    font-size: 14px
